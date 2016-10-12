@@ -1,0 +1,16 @@
+<div>
+  <% @cats.each do |cat| %>
+    <h3><%= cat.name %></h3>
+  <% end %>
+</div>
+<div>
+  <% @users.each do |user| %>
+    <h3><%= user.name %></h3>
+    <h3><%= user.age %></h3>
+  <% end %>
+</div>
+<div>
+  <% @todos.each do |todo| %>
+    <h3><%= todo.task %></h3>
+  <% end %>
+</div>
